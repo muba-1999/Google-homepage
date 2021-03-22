@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Clone</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      a {
+        text-decoration: none;
+      }
+      #first {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+        margin-right: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(48, 47, 47);
+      }
+      #first a {
+        margin: 10px;
+        text-decoration: none;
+      }
+      #first a.toplink {
+        color: white;
+      }
+      .b {
+        background-color: rgb(25, 25, 240);
+      }
+      img {
+        margin-top: 100px;
+      }
+      #logo {
+        text-align: center;
+      }
+      form {
+        text-align: center;
+        margin: 20px;
+      }
+      .searchbar {
+        width: 680px;
+        padding-top: 30px;
+        border-radius: 25px;
+        border: solid rgb(219, 217, 217) 1px;
+      }
+      .search {
+        margin-top: 20px;
+        margin-left: -130px;
+        padding: 15px;
+        font-size: medium;
+        background-color: rgb(243, 239, 239);
+        border: transparent;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(48, 47, 47);
+      }
+      .lucky {
+        margin-right: -130px;
+        padding: 15px;
+        font-size: medium;
+        background-color: rgb(243, 239, 239);
+        border: transparent;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(48, 47, 47);
+      }
+      .txt {
+        margin-top: 20px;
+        margin-left: 600px;
+      }
+      .color1 {
+        color: black;
+      }
+      #txts {
+        margin: 0;
+        background-color: rgb(235, 231, 231);
+      }
+      .txts {
+        margin: 215px 0 0 20px;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      #txts a {
+        color: rgb(48, 47, 47);
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      #lastlinks {
+        display: flex;
+        background-color: rgb(233, 230, 230);
+        padding: 5px;
+      }
+      #lastlinks a {
+        color: rgb(48, 47, 47);
+        margin: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .lastlinks {
+        text-align: end;
+      }
+    </style>
+  </head>
+  <body>
+    <nav id="first">
+      <a class="color1" href="#">Gmail</a>
+      <a class="color1" href="#">Images</a>
+      <button class="b" type="button">
+        <a class="toplink" href="#">Sign in</a>
+      </button>
+    </nav>
+    <div id="logo">
+      <img
+        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+      />
+    </div>
+    <div>
+      <form action="#">
+        <input class="searchbar" type="text" name="search" /><br />
+        <div>
+          <button class="search" type="submit">
+            <a class="color1" href="#">Google search</a>
+          </button>
+          <button class="lucky">
+            <a class="color1" href="#">I'm Feeling Lucky</a>
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div>
+      <p class="txt">Google offered in: <a href="#">Languages</a></p>
+    </div>
+    <div id="txts">
+      <p class="txts">Country</p>
+    </div>
+    <div id="lastlinks">
+      <a href="#">About</a>
+      <a href="#">Advertising</a>
+      <a href="#">Business</a>
+      <a href="#">How Search Works</a>
+      <hr style="border: transparent" />
+      <a class="lastlinks" href="#">Privacy</a>
+      <a class="lastlinks" href="#">Terms</a>
+      <a class="lastlinks" href="#">Settings</a>
+    </div>
+  </body>
+</html>
